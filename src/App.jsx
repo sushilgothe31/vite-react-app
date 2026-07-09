@@ -2,19 +2,20 @@ import { Routes, Route, Link, Outlet } from "react-router";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import "./App.css"
 
 // from   
 function Layout() {
   return (
-    <>
+    <div className="header">
       <nav>
         <Link to="/"> Home </Link>
-        <br />     
+
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
       </nav>
       <Outlet />
-    </>
+    </div>
   );
 }
 // to

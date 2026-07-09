@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background-color: aliceblue;
+}
