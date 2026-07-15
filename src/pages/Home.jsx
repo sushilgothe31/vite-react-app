@@ -1,26 +1,14 @@
 import { useEffect, useState } from "react";
+import DataList from "../components/DataList";
 
 
 function Home() {
 
-    // let a = 5;
-    // const [num, setNum] = useState(2)
-    // useEffect(() => {
-    //     a = 10;
 
+    return <div>
 
-    //     return () => {
-    //         num = null;
-    //     }
-    // }, [])
-    // useEffect(() => {
-    //     a = 0;
-    // }, [num])
-
-
-    // const handleClick = () => {
-    //     setNum(11)
-    // }
-    return <p>This is home</p>
+        <p>This is home</p>
+        <DataList />
+    </div>
 }
 export default Home
